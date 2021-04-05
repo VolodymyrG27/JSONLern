@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.calculator {
+   padding: 40px 0 40px 0;
+   background-color: cornflowerblue;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.value {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    color: white;
+    font-size: 24px;
+}
+
+input {
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+}
